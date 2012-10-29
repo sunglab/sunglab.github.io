@@ -1,1 +1,20 @@
-Github BLOG
+<html>
+    <head>
+        <title>SungLab Apps</title>
+        <script type="text/javascript">
+            function mobileWeb()
+            {
+                if (navigator.userAgent.match(/iPad/) == null && navigator.userAgent.match(/iPhone|Mobile|UP.Browser|Android|BlackBerry|Windows CE|Nokia|webOS|Opera Mini|SonyEricsson|
+                                                                                           opera mobi|Windows Phone|IEMobile|POLARIS/) != null)
+                {
+                    document.location.href = "mobile/index.html";
+                } else
+                {
+                    document.location.href = "others/index.html"; 
+                }
+            }
+            </script> 
+    </head> 
+    <body onload="mobileWeb();"> 
+    </body> 
+</html>
