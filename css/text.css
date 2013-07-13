@@ -1,6 +1,6 @@
 /*기본태그값 */
 body {
- background: #fff;
+ background: #000;
  font: 0.8em/1.6em Times,  Times New Roman, Georgia, MS Serif;
  margin:0;
  padding:0;
@@ -11,7 +11,7 @@ body {
 	padding:0.5em 0;
 	}
  a:hover {
-  color:#999;
+  color:#222;
   }
 /*left*/
 .left {
