@@ -1,0 +1,31 @@
+/*기본태그값 */
+body {
+ background: #fff url(images/hi.gif) no-repeat;
+ font: 0.8em/1.6em 돋움, Dotum, AppleGothic, verdana, sans-serif;
+ margin:0;
+ padding:0;
+ }
+ a {
+	text-decoration:none;
+	color:#e63;
+	padding:0.5em 0;
+	}
+ a:hover {
+  color:#9b4;
+  }
+
+/*나머지 */
+.left {
+  float:left;
+  }
+
+/*레이아웃 */
+#main {
+ margin: 50px 10px 20px 10px;
+ padding: 0;
+ line-height: 150%;
+ }
+ #left {
+  float:left;
+  width: 300px;
+  }
