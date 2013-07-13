@@ -1,23 +1,23 @@
 /*기본태그값 */
 body {
- background: #fff url(images/hi.gif) no-repeat;
- font: 0.8em/1.6em 돋움, Dotum, AppleGothic, verdana, sans-serif;
+ background: #fff;
+ font: 0.8em/1.6em ahoma, Verdana, Tiems, Vivaldi, Garamond, Courier;
  margin:0;
  padding:0;
  }
+ 
  a {
 	text-decoration:none;
-	color:#e63;
+	color:#fff;
 	padding:0.5em 0;
 	}
+    
  a:hover {
   color:#9b4;
   }
-p {
-    width: 100px; /* 정렬하려는 요소의 넓이를 반드시 지정 */
-    margin: 0 auto;
-}
-/*나머지 */
+
+
+/* LEFT */
 .left {
   float:left;
   }
@@ -32,3 +32,13 @@ p {
   float:left;
   width: 300px;
   }
+
+.whole{
+width:0px; margin:auto;
+}
+.title{}
+.mid{}
+.post{}
+.bottom{}
+
+}
