@@ -11,14 +11,14 @@ body {
 	padding:0.5em 0;
 	}
  a:hover {
-  color:#222;
+  color:#888;
   }
 /*left*/
 .left {
   float:left;
   }
 
-.main{margin:0 auto;}
+.main{width:700px;margin:0 auto;}
 .title{]
 .mid{}
 .posts{}
