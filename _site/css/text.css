@@ -1,13 +1,13 @@
 /*기본태그값 */
 body {
- background: #000;
+ background: #fff;
  font: 0.8em/1.6em Times,  Times New Roman, Georgia, MS Serif;
  margin:0;
  padding:0;
  }
  a {
 	text-decoration:none;
-	color:#fff;
+	color:#000;
 	padding:0.5em 0;
 	}
  a:hover {
