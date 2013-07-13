@@ -1,34 +1,25 @@
 /*기본태그값 */
 body {
- background: #fff url(images/hi.gif) no-repeat;
- font: 0.8em/1.6em 돋움, Dotum, AppleGothic, verdana, sans-serif;
+ background: #fff;
+ font: 0.8em/1.6em Times,  Times New Roman, Georgia, MS Serif;
  margin:0;
  padding:0;
  }
  a {
 	text-decoration:none;
-	color:#000000;
+	color:#fff;
 	padding:0.5em 0;
 	}
  a:hover {
-  color:#9b4;
+  color:#999;
   }
-p {
-    width: 100px; /* 정렬하려는 요소의 넓이를 반드시 지정 */
-    margin: 0 auto;
-}
-/*나머지 */
+/*left*/
 .left {
   float:left;
   }
 
-/*레이아웃 */
-#main {
- margin: 50px 10px 20px 10px;
- padding: 0;
- line-height: 150%;
- }
- #left {
-  float:left;
-  width: 300px;
-  }
+.main{margin:0 auto;}
+.title{]
+.mid{}
+.posts{}
+.bottom{}
