@@ -18,7 +18,13 @@ body {
   float:left;
   }
 
-.main{width:700px;margin:0 auto;}
+.main{width:700px;margin:0 auto; 
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+}
 .title{]
 .mid{}
 .posts{}
