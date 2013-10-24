@@ -10,13 +10,13 @@ body {
 	text-decoration:none;
 	color:#000;
 	padding:0.5em 0;
-    IMG { border:0 }
 	}
  a:hover {
   color:#888;
-  IMG { border:0 }
   }
-  
+  img
+{  border-style: none;
+}
 ul {list-style:none; margin:0; padding:0;}
 li {
 list-style-type: none;
