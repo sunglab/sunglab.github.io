@@ -19,13 +19,9 @@ body {
   
 ul {list-style:none; margin:0; padding:0;}
 li {
-        display:inline-block;
-        *display:inline; /*IE7*/
-        *zoom:1; /*IE7*/
-        background:blue;
-        color:white;
-        margin-right:10px;
-}
+list-style-type: none;
+display:inline;
+} 
 
 .main{
 margin-top:25px;  
