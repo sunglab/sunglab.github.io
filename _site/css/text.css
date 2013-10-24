@@ -1,4 +1,4 @@
-/*기본태그값 */
+
 body {
  background: #fff;
  font: 0.8em/1.6em Times,  Times New Roman, Georgia, MS Serif;
@@ -14,9 +14,17 @@ body {
  a:hover {
   color:#888;
   }
+  img
+{  border-style: none;
+}
+ul {list-style:none; margin:0; padding:0;}
+li {
+list-style-type: none;
+margin-top:10px; 
+}
 
 .main{
-width:100%;   
+margin-top:22px;  
 text-align:center;   
 }
 .title{
@@ -28,5 +36,5 @@ margin:0 auto;
 width:900px;
 text-align:center;  
 }
-.posts{}
+.posts{font-size:22px;}
 .bottom{width:900px;margin-left:auto;margin-right:auto;}
