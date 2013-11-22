@@ -1,10 +1,13 @@
 
 body {
- background: #fff;
+
  font: 0.8em/1.6em Times,  Times New Roman, Georgia, MS Serif;
  margin:0;
  padding:0;
  text-align:center;
+ /*
+background-color:#00ffff;
+*/
  }
  a {
 	text-decoration:none;
@@ -24,17 +27,54 @@ margin-top:10px;
 }
 
 .main{
-margin-top:22px;  
-text-align:center;   
+margin-top:25px;  
+text-align:center; 
+/*
+background-color:#ff0000;
+*/
 }
 .title{
 width:900px;margin-left:auto;margin-right:auto;
+/*
+background-color:#00ff00;
+*/
 }
 .mid{
 margin-top:15px;  
 margin:0 auto; 
 width:900px;
-text-align:center;  
+text-align:center;
+/*
+background-color:#0000ff;
+*/
 }
-.posts{font-size:22px;}
-.bottom{width:900px;margin-left:auto;margin-right:auto;}
+
+.navi{
+background-color:#000000;
+font-size:22px;
+}
+#navi ul {
+list-style-type: none;
+}
+#navi li {
+display:inline;
+}
+#navi a
+{
+color:white;
+}
+#navi a:hover
+{
+color:white;
+}
+
+.posts{font-size:22px;
+/*
+background-color:#ff00ff;
+*/}
+.bottom{
+width:900px;margin-left:auto;margin-right:auto;
+/*
+background-color:#ffff00;
+*/
+}
