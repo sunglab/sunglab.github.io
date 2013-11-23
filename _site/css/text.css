@@ -51,7 +51,7 @@ background-color:#0000ff;
 
 .navi{
 background-color:#000000;
-font-size:22px;
+font-size:12px;
 }
 #navi ul {
 list-style-type: none;
@@ -61,11 +61,12 @@ display:inline;
 }
 #navi a
 {
-color:white;
+color:black;
 }
 #navi a:hover
 {
-color:white;
+color:black;
+/*color:white;*/
 }
 
 .posts{font-size:22px;
