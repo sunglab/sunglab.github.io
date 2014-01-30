@@ -6,7 +6,7 @@ title: Applications
     <ul>
         {% for post in site.posts %}
         {% if post.categories contains 'apps' or post.categories contains 'apps' %}
-        <li> <a href="{{ post.url }}"><h6>{{ post.date | date:"%m/%d/%Y" }}</h6><h3> {{ post.title }}</h6></a> </li>
+        <li> <a href="{{ post.url }}"><h6>{{ post.date | date:"%m/%d/%Y" }}</h6><h3> {{ post.title }}</h3></a> </li>
         {% endif %}
         {% endfor %}
     </ul>
