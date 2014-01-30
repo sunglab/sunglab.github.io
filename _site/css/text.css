@@ -64,15 +64,11 @@ width:800px;
 text-align:center;
 }
 
-#mid h2
-{
-font-size: 1.571em;
-}
-
-#mid h3
-{
-font-size: 1.429em;
-}
+#mid h1 {font-size: 2em }            /* 28px */
+#mid h2 {font-size: 1.571em}	/* 22px */
+#mid h3 {font-size: 1.429em}	/* 20px */
+#mid h5 {font-size: 1.143em}	/* 16px */
+#mid h6 {font-size: 1em; color:#777}		/* 14px */
 
 #mid h4
 {
@@ -80,6 +76,31 @@ font-family: Helvetica;
 font-size: 1.286em;
 text-align:left;
 }
+
+
+#mid blockquote {
+	border-left: 4px solid #dddddd;
+	display: block;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 15px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 0px;
+}
+
+#mid blockquote p {
+	color: #777777;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 20px;
+	word-wrap: break-word;
+}
+
 
 #navi{
 background: #000305;
