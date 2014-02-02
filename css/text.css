@@ -135,11 +135,9 @@ line-height: 30px;
 
 #navi a
 {
-float: center;
-/*
+/*float: center;*/
 margin-right:10px;
 padding: 0px 20px; 
-*/
 color:#fff;
 }
 
