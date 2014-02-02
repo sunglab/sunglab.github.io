@@ -105,13 +105,12 @@ text-align:left;
 /* navigation */
 #navi
 {
+display:inline-block;
+
 background: #000305;
+/*
 height:30px;
 width: 800px;
-margin: 0 auto;
-/*
-margin: 0 auto;
-padding: 0;
 border-radius: 40px;
 -moz-border-radius: 100px;
 -webkit-border-radius: 100px;
@@ -125,19 +124,13 @@ list-style-type: none;
 
 #navi ul li
 {
-text-align: center;
-display:inline;
 color: white;
-width: 200px;
 font-size: 20px;
 line-height: 30px;
 }
 
 #navi a
 {
-/*float: center;*/
-margin-right:10px;
-padding: 0px 20px; 
 color:#fff;
 }
 
