@@ -105,7 +105,6 @@ text-align:left;
 /* navigation */
 #navi
 {
-text-align: center;
 background: #000305;
 height:30px;
 width: 800px;
@@ -126,6 +125,7 @@ list-style-type: none;
 
 #navi ul li
 {
+text-align: center;
 display:inline;
 color: white;
 width: 200px;
