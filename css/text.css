@@ -104,18 +104,17 @@ text-align:left;
 
 #navi{
 background: #000305;
-		font-size: 30px;
-        height: 1.25em;
-		line-height:1.25em;
-		margin: 0 auto;
-		padding: 0;
-		text-align: center;
-         vertical-align:middle;
+
+        height:30px;
+        
 		width: 800px;
+
         border-left:1px solid #ffffff
 		border-radius: 40px;
-		-moz-border-radius: 40px;
-		-webkit-border-radius: 40px;
+		margin: 0 auto;
+		padding: 0;
+		-moz-border-radius: 100px;
+		-webkit-border-radius: 100px;
 }
 
 #navi ul {
@@ -123,6 +122,12 @@ list-style-type: none;
 }
 #navi li {
 display:inline;
+         vertical-align:middle;
+         	text-align: center;
+        color: white;
+
+		font-size: 20px;
+        line-height: 30px;
 }
 #navi a
 { float: center; 
