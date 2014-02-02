@@ -115,11 +115,10 @@ background: #000305;
 		padding: 0;
 		-moz-border-radius: 100px;
 		-webkit-border-radius: 100px;
-        display:inline;
+        
 }
 
 #navi ul {
-display:inline;
 list-style-type: none;
 }
 #navi li {
