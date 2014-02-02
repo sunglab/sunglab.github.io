@@ -106,15 +106,15 @@ text-align:left;
 #navi
 {
 display:inline-block;
- *display:inline; zoom:1;
-
+ *display:inline; 
+ zoom:1;
 background: #000305;
-/*
-height:30px;
-width: 800px;
 border-radius: 40px;
 -moz-border-radius: 100px;
 -webkit-border-radius: 100px;
+margin:0 30;
+/*
+height:30px;
 */
 }
 
