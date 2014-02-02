@@ -104,25 +104,20 @@ text-align:left;
 
 #navi{
 background: #000305;
-
         height:30px;
-        
 		width: 800px;
-
-        border-left:1px solid #ffffff
 		border-radius: 40px;
 		margin: 0 auto;
 		padding: 0;
 		-moz-border-radius: 100px;
 		-webkit-border-radius: 100px;
-        display:inline;
+
 }
 
 #navi ul {
-display:inline;
 list-style-type: none;
 }
-#navi li {
+#navi ul li {
 display:inline;
          vertical-align:middle;
          	text-align: center;

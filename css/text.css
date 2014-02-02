@@ -117,7 +117,7 @@ background: #000305;
 #navi ul {
 list-style-type: none;
 }
-#navi li {
+#navi ul li {
 display:inline;
          vertical-align:middle;
          	text-align: center;
