@@ -1,7 +1,7 @@
 
 body {
  font: 0.8em/1.6em;
- font-family: 'Alegreya Sans SC',sans-serif;
+ font-family: "Times New Roman", Times, serif;
  margin:0;
  padding:0;
  text-align:center;
@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	line-height: 1.1;
 	margin-bottom: .8em;
-    font-family: 'Alegreya Sans SC',sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 h3, h4, h5, h6 { margin-top: .8em; }
