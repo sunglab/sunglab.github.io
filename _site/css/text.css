@@ -117,7 +117,10 @@ margin:0 30;
 height:30px;
 */
 }
-
+#right
+{
+    text-align: right;
+}
 #navi ul
 {
 list-style-type: none;
