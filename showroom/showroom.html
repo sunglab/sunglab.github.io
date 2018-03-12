@@ -79,6 +79,27 @@
         scene.background = new THREE.Color( 0x2f2f2f );
         scene.add( camera );
 
+        // Renderer
+        renderer = new THREE.WebGLRenderer({ alpha: true });
+        renderer.setClearColor( 0xffffff, 0 );
+        renderer.setPixelRatio( window.devicePixelRatio );
+        renderer.setSize( window.innerWidth, window.innerHeight );
+        renderer.shadowMap.enabled = true;
+
+        container.appendChild( renderer.domElement );
+        renderer.gammaInput = true;
+        renderer.gammaOutput = true;
+
+        // controls
+        controls = new THREE.OrbitControls( camera, renderer.domElement );
+        controls.enableDamping = false; // an animation loop is required when either damping or auto-rotation are enabled
+        controls.dampingFactor = 0.25;
+        controls.panningMode = THREE.HorizontalPanning; // default is THREE.ScreenSpacePanning
+        controls.minDistance = 100;
+        controls.maxDistance = 1000;
+        controls.maxPolarAngle = Math.PI / 2;
+        controls.maxAzimuthAngle= Math.PI / 2;
+
         // OBJ
         var onProgress = function ( xhr ) {
             if ( xhr.lengthComputable ) {
@@ -98,27 +119,6 @@
             objLoader.setPath( 'models/' );
             objLoader.load( 'SkoModell.obj', function ( object ) {
 
-
-
-                renderer = new THREE.WebGLRenderer({ alpha: true });
-                renderer.setClearColor( 0xffffff, 0 );
-                renderer.setPixelRatio( window.devicePixelRatio );
-                renderer.setSize( window.innerWidth, window.innerHeight );
-                renderer.shadowMap.enabled = true;
-
-                container.appendChild( renderer.domElement );
-                renderer.gammaInput = true;
-                renderer.gammaOutput = true;
-
-                // controls
-                controls = new THREE.OrbitControls( camera, renderer.domElement );
-                controls.enableDamping = false; // an animation loop is required when either damping or auto-rotation are enabled
-                controls.dampingFactor = 0.25;
-                controls.panningMode = THREE.HorizontalPanning; // default is THREE.ScreenSpacePanning
-                controls.minDistance = 100;
-                controls.maxDistance = 1000;
-                controls.maxPolarAngle = Math.PI / 2;
-                controls.maxAzimuthAngle= Math.PI / 2;
 
                 object.traverse( function ( child ) {
                     if ( child instanceof THREE.Mesh ) {
