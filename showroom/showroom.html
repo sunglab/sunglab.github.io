@@ -162,12 +162,13 @@
                         spotLight.shadow.mapSize.height = 512;
                         spotLight.shadow.camera.near = 0.5;
                         spotLight.shadow.camera.far = 1500;
+                        
+                        animate();
                     }
 
                 } );
 
             }, onProgress, onError );
-            animate();
         });
 
 
@@ -207,6 +208,7 @@
 
 		var light =  options.LightColor;
         scene.rotation.y += ( targetRotation - scene.rotation.y ) * 0.05;
+        if(mesh)
         mesh.rotation.y = clock.getElapsedTime()*0.5;
         renderer.render( scene, camera );
 
