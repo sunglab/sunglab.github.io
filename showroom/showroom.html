@@ -58,7 +58,6 @@
     var objects = [];
 
     init();
-    animate();
 
     function init() {
 
@@ -120,7 +119,7 @@
                 controls.maxDistance = 1000;
                 controls.maxPolarAngle = Math.PI / 2;
                 controls.maxAzimuthAngle= Math.PI / 2;
-                
+
                 object.traverse( function ( child ) {
                     if ( child instanceof THREE.Mesh ) {
 
@@ -134,7 +133,6 @@
                         mesh.castShadow = true;
                         mesh.receiveShadow = true;
                         scene.add(mesh);
-
 
                         floorMaterial = new THREE.MeshStandardMaterial( {
                             map: null,
@@ -169,7 +167,7 @@
                 } );
 
             }, onProgress, onError );
-
+            animate();
         });
 
 
