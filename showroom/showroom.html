@@ -24,21 +24,14 @@
 <canvas id="debug" style="position:absolute; left:100px"></canvas>
 
 <script src="../build/three.js"></script>
-
 <script src="./js/loaders/DDSLoader.js"></script>
 <script src="./js/loaders/MTLLoader.js"></script>
 <script src="./js/loaders/OBJLoader.js"></script>
-
-
 <script src="./js/controls/OrbitControls.js"></script>
-//<script src="./js/controls/TrackballControls.js"></script>
 <script src="./js/libs/dat.gui.min.js"></script>
 <script src="./js/renderers/Projector.js"></script>
 <script src="./js/renderers/CanvasRenderer.js"></script>
-
 <script src="./js/libs/stats.min.js"></script>
-//<script src="./js/core/BufferGeometry.js"></script>
-//<script src="./js/core/Geometry.js"></script>
 
 <script>
 
@@ -116,7 +109,7 @@
             var objLoader = new THREE.OBJLoader();
             objLoader.setMaterials( materials );
             objLoader.setPath( 'models/' );
-            objLoader.load( 'SkoModell.obj', function ( object ) {
+            objLoader.load( 'SkoModell.mm', function ( object ) {
 
 
                 object.traverse( function ( child ) {
