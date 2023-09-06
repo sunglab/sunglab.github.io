@@ -1,100 +1,133 @@
 <html>
-<head>
-	<title>SungLab</title>
-    <link href='https://fonts.googleapis.com/css?family=Inconsolata|Alegreya+Sans:100,300,400|Alegreya+Sans+SC:100,300,400' rel='stylesheet' type='text/css'>
-         <link rel="stylesheet" href="/css/text.css" type="text/css" media="screen, projection" />
-</head>
-<body>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-			  js = d.createElement(s); js.id = id;
-				  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=332263876843439";
-					  fjs.parentNode.insertBefore(js, fjs);
-						}(document, 'script', 'facebook-jssdk'));</script>
-<!-- github button -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
-<!-- twitter button -->
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-<div id="main">
+	<head>
+		<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="/css/socialicious.css">
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link rel="stylesheet" type="text/css" href="/css/monokai.css">
+		<link href="/blog/rss.xml" rel="alternate" type="application/rss+xml" title="Title" />
+		<title>Title</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<script type="text/javascript" src='/js/jquery.min.js'></script>
+		<script type="text/javascript" src='/js/jquery.masonry.min.js'></script>
+		<script type="text/javascript" src='/js/jquery.imagesloaded.min.js'></script>
+		<script type="text/javascript" src='/js/highlight.pack.js'></script>
+		<script type="text/javascript">
+			hljs.initHighlightingOnLoad();
+			function applyTiles() {
+				var posts = $('#posts ul');
+				posts.imagesLoaded(function() {
+					$('#posts ul').masonry({ itemSelector : '.post' });;
+				});
+			}
+			$(function() {
+				applyTiles();
+			});
+			$(window).resize(function() {
+				applyTiles();
+			});
+		</script>
+		<style type="text/css">
+		</style>
+	</head>
+	<body>
+		<div id='layout'>
+			<div id='heading'>
+	<div id='logo'>
+		<a href='http://localhost:4000'>SungLab</a>
+		<a href='http://localhost:4000' id='logo_docs'></a>
+</div>
+</div>
+<section id="home-hero"></section>
 
-<!-- TAG -->
-<div id="right">
-<a class="github-button" href="https://github.com/sunglab" data-style="mega" data-count-href="/sunglab/followers" data-count-api="/users/sunglab#followers" data-count-aria-label="# followers on GitHub" aria-label="Follow @sunglab on GitHub">Follow @sunglab</a>
-</div>
-<br>
-<div id="right">
-<div class="fb-like" style="float:right" data-href="https://www.facebook.com/sunglabcom"  data-width="0"  data-layout="standard" data-action="like" data-show-faces="false" data-share="false"></div>
-</div>
-<br>
-<br>
-<div class="twitter-follow" style="float:right">
-		<a href="https://twitter.com/sunglabcom" data-width="300" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @sunglabcom</a>
-</div>
+			<div style='clear: both'></div>
+		</div>
+		<div id='content' class="hp">
+			<div id='posts' class="leftblock">
+				<ul>
+					
+						<li class='post'>
+							
+							<div class="postcontent">
+					<a href='/blog/StarEngine-post10/'><h1 class='post-title'>StarEngine</h1></a>
 
-<div id="title">
-    <h1><a href="/">Interactive Media Art </a></h1>
-</div>
+								<div class='post-content'>a graphics engine for multi platforms</div>
+							</div>
+						</li>
+					
+						<li class='post'>
+							
+								<a href='/blog/Flasia-post3/'><img class='post-image' src="/images/blog/flasia.png" /></a>
+							
+							<div class="postcontent">
+					<a href='/blog/Flasia-post3/'><h1 class='post-title'>Flasia</h1></a>
 
-<hr size="1" color="black">
-<div id="navi">
-    <nav role="navigation">
-        <ul id="navi">
-            <li id="navi"><a id="navi" href="/apps">Apps</a></li>
-            <li id="navi"><a id="navi" href="/exps">Experiments</a></li>
-            <li id="navi"><a id="navi" href="/codes">Codes</a></li>
-        <!--    <li id="navi"><a id="navi" href="/about">About SungLab</a></li>-->
-        </ul>
-    </nav>
-</div>
-<hr size="1" color="black">
+								<div class='post-content'>Flasia (public performance)</div>
+							</div>
+						</li>
+					
+						<li class='post'>
+							
+								<a href='/blog/TripleA-post2/'><img class='post-image' src="/images/blog/triplea.png" /></a>
+							
+							<div class="postcontent">
+					<a href='/blog/TripleA-post2/'><h1 class='post-title'>Triple A</h1></a>
 
-<div id="mid">
-<div class="posts">
-    <ul>
-        
-        <li> <a href="/codes/2016/12/29/StarEngine.html"><h6>12/29/2016</h6> <h3>StarEngine</h3></a> </li>
-        
-        <li> <a href="/apps/2016/12/03/Fireworks.html"><h6>12/03/2016</h6> <h3>Fireworks Live Wallpaper + Google TV</h3></a> </li>
-        
-        <li> <a href="/apps/2016/03/03/Music-VR.html"><h6>03/03/2016</h6> <h3>Music VR for IOS</h3></a> </li>
-        
-        <li> <a href="/apps/2015/12/15/Atomus-3D.html"><h6>12/15/2015</h6> <h3>Atomus 3D</h3></a> </li>
-        
-        <li> <a href="/exps/2015/08/01/3D-VR-Chat.html"><h6>08/01/2015</h6> <h3>3D VR Chatting</h3></a> </li>
-        
-        <li> <a href="/exps/2015/05/10/Flasia.html"><h6>05/10/2015</h6> <h3>Flasia - Interactive Installation</h3></a> </li>
-        
-        <li> <a href="/apps/2015/03/15/Flasia.html"><h6>03/15/2015</h6> <h3>Flasia - Touch Interactive</h3></a> </li>
-        
-        <li> <a href="/apps/2014/04/20/TripleA.html"><h6>04/20/2014</h6> <h3>Triple A</h3></a> </li>
-        
-        <li> <a href="/exps/2014/01/20/atomus.html"><h6>01/20/2014</h6> <h3>ATOMUS with Kinect</h3></a> </li>
-        
-        <li> <a href="/apps/2013/10/23/atomus.html"><h6>10/23/2013</h6> <h3>ATOMUS</h3></a> </li>
-        
-        <li> <a href="/apps/2011/10/30/orangecamera.html"><h6>10/30/2011</h6> <h3>Orange Camera</h3></a> </li>
-        
-        <li> <a href="/apps/2010/12/26/drawing.html"><h6>12/26/2010</h6> <h3>Drawing Apps</h3></a> </li>
-        
-    </ul>
-</div>
+								<div class='post-content'>Humans and rag dolls.</div>
+							</div>
+						</li>
+					
+						<li class='post'>
+							
+								<a href='/blog/atomus-post1/'><img class='post-image' src="/images/blog/atomus.png" /></a>
+							
+							<div class="postcontent">
+					<a href='/blog/atomus-post1/'><h1 class='post-title'>ATOMUS</h1></a>
 
-</div>
-
-<hr size="1" color="black">
-    
+								<div class='post-content'>Humans and rag dolls.</div>
+							</div>
+						</li>
+					
+				</ul>
+			</div>
+			<div class="rightblock">
+				<b>SungLab?</b>
+<p>
+  SungLab is a creative studio dedicated to providing relaxation experiences and engaging content through mobile/VR apps
+</p>
+<b>Apps</b>
+<p>
 <div id="bottom">
-    <a href="http://itunes.com/apps/sunglab">
-        <img src="/images/appstore.png"/>
-    </a>&nbsp;&nbsp;
-    <a href="http://market.android.com/search?q=pub:SungLab">
-        <img src="/images/googleplay.png"/>
-    </a>&nbsp;&nbsp;
-		<a href="http://www.amazon.com/gp/mas/dl/android?p=com.sunglab.bigbanghd&showAll=1"><img src="/images/amazonapp.jpg"/>
-		</a>
+  <a href="http://itunes.com/apps/sunglab">
+      <img src="/images/appstore.png"/>
+  </a>&nbsp;&nbsp;
+  <a href="https://play.google.com/store/apps/dev?id=9123937757557756010">
+      <img src="/images/googleplay.png"/>
+</p>
+ <!-- </a>&nbsp;&nbsp;
+  <a href="http://www.amazon.com/gp/mas/dl/android?p=com.sunglab.bigbanghd&showAll=1"><img src="/images/amazonapp.jpg"/>
+  </a>
+-->
 </div>
-</div>
+<!--
+<p>
+Yep, a city in southern Viet Nam. Did you know Saigon has some of the world's most beautiful cafes?
+  <ul>
+    <li><a href="http://www.nomadicnotes.com/travel-blog/ho-chi-minh-city-cafes/">Nomadic Notes</a></li>
+    <li><a href="http://nomadcapitalist.com/2016/01/11/best-cafes-in-se-asia-for-high-achieving-nomads/">Nomad Capitalist</a></li>
+    <li><a href="http://www.adventurefaktory.com/vietnam-the-ultimate-saigon-cafes-list/">Adventure Faktory</a></li>
+  </ul>
+</p>
+
+<p>
+  A good advice though is probably bringing your headphones with you since Asian music taste evolves around ”Criminal” by Britney Spears and the like.
+</p>
+-->
+
+			</div>
+			<div style='clear:both'></div>
+		</div>
+		<div id='footer'>
+			<a href="/about/">About</a> | SungLab - 2023
+		</div>
+	</div>
 </body>
 </html>

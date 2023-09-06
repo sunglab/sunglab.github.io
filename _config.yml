@@ -1,0 +1,11 @@
+permalink: /:categories/:title/
+url: "http://sunglab.com"
+full_name: "SungLab"
+first_name: "SungLab"
+last_name: ""
+blog_title: "Title"
+author_img_name_path: "/images/users/user.jpg"
+disqus_shortname: "sunglab"
+copyright_year: "2023"
+google_analytics_code: ""
+aboutme: "SungLab is a cretive studio located in Canada"
